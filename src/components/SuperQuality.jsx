@@ -7,7 +7,7 @@ const SuperQuality = () => {
       id="about-us"
       className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
     >
-      <div className="flex flex-1 flex-col">
+      <div data-aos="fade-right" className="flex flex-1 flex-col">
         <h2 className="mt-10 font-palanquin sm:text-4xl capitalize text-xl font-bold lg:max-w-lg">
           We provide you
           <span className=" text-coral-red ">Super</span>
@@ -26,7 +26,7 @@ const SuperQuality = () => {
           <Button label="View details" />
         </div>
       </div>
-      <div className="flex-1 flex justify-center items-center">
+      <div data-aos="fade-left" className="flex-1 flex justify-center items-center">
         <img src={shoe8} alt="Shoe8" height={570} width={511} className="object-contain" />
       </div>
     </section>

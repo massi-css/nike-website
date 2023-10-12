@@ -4,7 +4,7 @@ import arrowRight from "../assets/icons/arrow-right.svg";
 const SpecialOffer = () => {
   return (
     <section className="flex justify-wrap items-center max-lg:flex-col-reverse gap-10 max-container">
-      <div className="flex-1">
+      <div data-aos="fade-right" className="flex-1">
         <img
           src={offer}
           width={773}
@@ -12,7 +12,7 @@ const SpecialOffer = () => {
           className="object contain w-full"
         />
       </div>
-      <div className="flex flex-1 flex-col">
+      <div data-aos="fade-left" className="flex flex-1 flex-col">
         <h2 className="mt-10 font-palanquin sm:text-4xl capitalize text-xl font-bold lg:max-w-lg">
           <span className=" text-coral-red ">Special</span>
           Offer

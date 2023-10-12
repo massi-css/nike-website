@@ -11,8 +11,8 @@ const PopularProducts = () => {
         </p>
       </div>
       <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14 ">
-        {products.map((product) => (
-          <div key={product.name}>
+        {products.map((product,index) => (
+          <div data-aos="flip-right" data-aos-delay={index*200} key={product.name}>
             <PopularProductCard {...product}
             />
           </div>
